@@ -1,0 +1,70 @@
+/* file ini adalah stylesheet yang digunakan untuk mengatur tampilan halaman web */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, #d4d3dd, #d0efbb);
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 3px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.movie-card {
+  background: linear-gradient(135deg, #faf8f6, #9fe223);
+  color: #070101;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(110, 110, 110, 0.5);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+}
+
+.movie-card .poster-container {
+  background-color: rgba(197, 30, 30, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.movie-card .poster-container img {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.movie-card .title {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8em;
+  display: inline-block;
+}
+
+.movie-card .release-date {
+  font-size: 0.8em; /* Sesuaikan ukuran font sesuai kebutuhan */
+}
